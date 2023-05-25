@@ -141,6 +141,40 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#paragraph1 {
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#paragraph2 {
+  color: #fff;
+  background-color: #ababab;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#paragraph3 {
+  color: #333;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
 /* Media query for screens with a maximum width of 600px */
 @media (max-width: 600px) {
   .logo {
@@ -193,6 +227,15 @@ h1 {
     text-align: center;
     padding: 20px;
     grid-column: span 1;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
