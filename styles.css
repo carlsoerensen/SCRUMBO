@@ -40,6 +40,14 @@ header {
   margin-bottom: 5px;
 }
 
+#services {
+  text-align: center;
+}
+
+#checks {
+    text-align: center;
+}
+
 /* Media query for screens with a maximum width of 600px */
 @media (max-width: 600px) {
   .logo {
@@ -61,3 +69,4 @@ header {
     display: flex;
   }
 }
+
