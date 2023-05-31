@@ -11,6 +11,16 @@ header {
   justify-content: space-between;
 }
 
+.negle {
+  text-align: center;
+}
+
+.negle img {
+  max-width: 50%;
+  height: auto;
+}
+
+
 .logo img {
   max-height: 100px;
 }
@@ -48,6 +58,7 @@ header {
 #checks {
     text-align: center;
 }
+
 
 .hero-section {
   position: relative;
@@ -126,11 +137,13 @@ a {
       margin-bottom: 20px;
 }
 
+
 .gallery-item img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
+
 
 .gallery-text {
   text-align: center;
@@ -332,6 +345,15 @@ a:hover {
     max-width: 100%;
     height: auto;
 
+}
+
+.negle {
+  text-align: center;
+}
+
+.negle img {
+  max-width: 100%;
+  height: auto;
 }
 }
 
