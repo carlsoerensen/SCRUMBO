@@ -1,3 +1,7 @@
+//her validerer vi på login siden
+
+// Here we validate on the login page
+
 let email = document.forms['form']['email'];
 let password = document.forms['form']['password'];
 
@@ -7,9 +11,7 @@ let pass_error = document.getElementById('pass_error');
 email.addEventListener('input', email_Verify);
 password.addEventListener('input', pass_Verify);
 
-function validated(event) {
-    event.preventDefault(); // Prevent form submission if validation fails
-
+function validated() {
     if (email.value.length < 9) {
         email.style.border = "1px solid red";
         email_error.style.display = "block";
@@ -33,7 +35,7 @@ function email_Verify() {
         email_error.style.display = "none";
     }
 
-    validated(event); // Call validated() to perform overall validation
+    validated(); // Call validated() to perform overall validation
 }
 
 function pass_Verify() {
@@ -42,5 +44,5 @@ function pass_Verify() {
         pass_error.style.display = "none";
     }
 
-    validated(event); // Call validated() to perform overall validation
+    validated(); // Call validated() to perform overall validation
 }
