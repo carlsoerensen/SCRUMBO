@@ -224,6 +224,11 @@ p {
   margin: 0;
 }
 
+.billede {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Tekst font */
 
 p {
