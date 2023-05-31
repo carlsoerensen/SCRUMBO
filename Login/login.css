@@ -23,7 +23,7 @@ body{
 
 }
 
-#label{
+.label{
     padding: 20px 130px;
     font-size: 35px;
     font-weight: bold;
